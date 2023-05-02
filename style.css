@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Mulish:wght@800&family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    ---cor-primaria: #7678ED;
+    ---fonte: 'Krona One';
+}
+
+body {
+    background-color: var(---cor-primaria);
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1% 0%;
+}
+
+.conteudo-imagens-imagem {
+    width: 11rem;
+}
+
+.conteudo-calculadora {
+    font-family: var(---fonte);
+}
+
+.conteudo-calculadora-form-titulo {
+    font-size: 1.3rem;
+}
+
+.conteudo-calculadora-form {
+    font-size: 1rem;
+    padding: 1%;
+}
+
+.conteudo-calculadora-resultado {
+    margin-top: 0.5rem;
+}
+
+input {
+    width: 80px;
+}
+
+.button-calcular {
+    position: relative;
+    display: inline-block;
+    padding: 0.4rem;
+    font-size: 1rem;
+    font-family: var(---fonte);
+    color: #ffffff;
+    background-color: #1d3557;
+
+    cursor: pointer;
+    overflow: hidden;
+
+    width: 18.75rem;
+    height: 3rem;
+    border: none;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+}
+
+.button-calcular:hover {
+    background-color: #023e8a;
+}
